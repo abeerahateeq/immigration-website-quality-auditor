@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Immigration Consultancy Website Audit</title>
+<style>
+  :root {
+    --bg: #f7f7f5; --card: #ffffff; --ink: #1f2421; --muted: #6b7280;
+    --line: #e5e7eb; --accent: #2f6f4f; --high: #b91c1c; --mid: #b45309; --low: #15803d;
+  }
+  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; background: var(--bg); color: var(--ink); margin: 0; padding: 2rem; }
+  h1 { margin-bottom: 0.2rem; }
+  .timestamp { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+  .disclaimer { background: #fff8e6; border: 1px solid #f0d98c; padding: 0.9rem 1.1rem; border-radius: 8px; margin-bottom: 1.5rem; font-size: 0.92rem; }
+  table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 8px; overflow: hidden; margin-bottom: 2rem; }
+  th, td { text-align: left; padding: 0.6rem 0.9rem; border-bottom: 1px solid var(--line); }
+  th { background: #eef2ee; }
+  tr.unreachable td { color: var(--muted); font-style: italic; }
+  .score.high { color: var(--low); font-weight: 700; }
+  .score.mid { color: var(--mid); font-weight: 700; }
+  .score.low { color: var(--high); font-weight: 700; }
+  .priority-high { color: var(--high); font-weight: 700; }
+  .priority-medium { color: var(--mid); font-weight: 700; }
+  .priority-low { color: var(--low); font-weight: 700; }
+  section.site-detail { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem; }
+  .facts-block { background: #f4f8f5; border-radius: 8px; padding: 0.9rem 1.1rem; margin-bottom: 1rem; }
+  .judgment-block { background: #f4f6fb; border-radius: 8px; padding: 0.9rem 1.1rem; }
+  .facts-grid { columns: 2; column-gap: 2rem; font-size: 0.92rem; }
+  .mock-note { color: #92400e; font-size: 0.85rem; }
+  .badge { display: inline-block; font-size: 0.7rem; font-weight: 700; padding: 0.1rem 0.4rem; border-radius: 4px; margin-right: 0.3rem; }
+  .badge.high { background: #fee2e2; color: var(--high); }
+  .badge.medium { background: #fef3c7; color: var(--mid); }
+  .badge.low { background: #dcfce7; color: var(--low); }
+</style>
+</head>
+<body>
+  <h1>Immigration Consultancy Website Audit</h1>
+  <div class="timestamp">Generated 2026-09-18 15:03 UTC</div>
+  <div class="disclaimer">
+    <strong>How to read this report:</strong> "🔍 Automatically Detected Facts" come straight from the
+    scraping script — deterministic, no interpretation. "🤖 AI-Generated Judgment" is the LLM's opinion
+    based on those facts and can be wrong or incomplete. Treat scores and recommendations as a
+    starting point for human review, not a final verdict.
+  </div>
+  <table>
+    <thead><tr><th>Website</th><th>Score</th><th># Problems</th><th># Missing</th><th>Priority</th></tr></thead>
+    <tbody><tr><td><a href='http://127.0.0.1:8001/' target='_blank'>http://127.0.0.1:8001/</a></td><td class='score mid'>50</td><td>0</td><td>0</td><td class='priority-medium'>MEDIUM</td></tr><tr><td><a href='http://127.0.0.1:8002/' target='_blank'>http://127.0.0.1:8002/</a></td><td class='score low'>0</td><td>4</td><td>4</td><td class='priority-high'>HIGH</td></tr><tr><td><a href='http://127.0.0.1:8003/' target='_blank'>http://127.0.0.1:8003/</a></td><td class='score low'>45</td><td>1</td><td>1</td><td class='priority-high'>HIGH</td></tr><tr><td><a href='http://127.0.0.1:8004/' target='_blank'>http://127.0.0.1:8004/</a></td><td class='score low'>10</td><td>2</td><td>3</td><td class='priority-high'>HIGH</td></tr><tr><td><a href='http://127.0.0.1:8005/' target='_blank'>http://127.0.0.1:8005/</a></td><td class='score mid'>50</td><td>0</td><td>0</td><td class='priority-medium'>MEDIUM</td></tr><tr><td><a href='http://127.0.0.1:8006/' target='_blank'>http://127.0.0.1:8006/</a></td><td class='score low'>10</td><td>4</td><td>3</td><td class='priority-high'>HIGH</td></tr><tr class='unreachable'><td>http://127.0.0.1:9999/</td><td colspan='4'>UNREACHABLE — connection_error</td></tr></tbody>
+  </table>
+  
+        <section class="site-detail">
+          <h2>http://127.0.0.1:8001/</h2>
+          <div class="facts-block">
+            <h3>🔍 Automatically Detected Facts</h3>
+            <ul class="facts-grid">
+              <li>HTTP status: 200 | HTTPS: No | Load time: 7 ms</li>
+              <li>Pages crawled: 5 | Internal links: 4</li>
+              <li>Title: Horizon Immigration Consultants | Visa &amp; Immigration Experts</li>
+              <li>Meta description present: Yes</li>
+              <li>Contact form present: Yes</li>
+              <li>Phone visible: Yes | Email visible: Yes</li>
+              <li>CTA buttons (5): Book a Free Consultation, Check Eligibility, Facebook, WhatsApp, Apply Now</li>
+              <li>Social links: facebook, linkedin, whatsapp</li>
+              <li>FAQ present: Yes</li>
+              <li>Alt text coverage: 50.0% (2/4 images)</li>
+              <li>Mobile viewport meta present: Yes</li>
+              <li>robots.txt status: allowed</li>
+            </ul>
+          </div>
+          <div class="judgment-block">
+            <h3>🤖 AI-Generated Judgment</h3>
+            <p class='mock-note'>⚠️ MOCK judgment — no LLM API key configured for this run.</p>
+            <p class="score-line">Score: <strong>50/100</strong> — MOCK JUDGMENT (no ANTHROPIC_API_KEY set) -- heuristic estimate only, not a real LLM opinion. (LLM call via gemini failed: ClientError: 404 NOT_FOUND. {&#x27;error&#x27;: {&#x27;code&#x27;: 404, &#x27;message&#x27;: &#x27;This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.&#x27;, &#x27;status&#x27;: &#x27;NOT_FOUND&#x27;}})</p>
+            <h4>Problems</h4><ul><li>None noted</li></ul>
+            <h4>Missing Features</h4><ul><li>None noted</li></ul>
+            <h4>Recommendations</h4><ul class="recs"><li>None</li></ul>
+            <p class="overall-priority">Overall priority: <strong>MEDIUM</strong></p>
+          </div>
+        </section>
+        <section class="site-detail">
+          <h2>http://127.0.0.1:8002/</h2>
+          <div class="facts-block">
+            <h3>🔍 Automatically Detected Facts</h3>
+            <ul class="facts-grid">
+              <li>HTTP status: 200 | HTTPS: No | Load time: 14 ms</li>
+              <li>Pages crawled: 1 | Internal links: 0</li>
+              <li>Title: Global Visa Help</li>
+              <li>Meta description present: No</li>
+              <li>Contact form present: No</li>
+              <li>Phone visible: No | Email visible: Yes</li>
+              <li>CTA buttons (0): none</li>
+              <li>Social links: none</li>
+              <li>FAQ present: No</li>
+              <li>Alt text coverage: 0.0% (0/1 images)</li>
+              <li>Mobile viewport meta present: No</li>
+              <li>robots.txt status: allowed</li>
+            </ul>
+          </div>
+          <div class="judgment-block">
+            <h3>🤖 AI-Generated Judgment</h3>
+            <p class='mock-note'>⚠️ MOCK judgment — no LLM API key configured for this run.</p>
+            <p class="score-line">Score: <strong>0/100</strong> — MOCK JUDGMENT (no ANTHROPIC_API_KEY set) -- heuristic estimate only, not a real LLM opinion. (LLM call via gemini failed: ClientError: 404 NOT_FOUND. {&#x27;error&#x27;: {&#x27;code&#x27;: 404, &#x27;message&#x27;: &#x27;This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.&#x27;, &#x27;status&#x27;: &#x27;NOT_FOUND&#x27;}})</p>
+            <h4>Problems</h4><ul><li>No contact form detected on crawled pages</li><li>Homepage has no meta description tag</li><li>No mobile viewport meta tag found</li><li>Only 0.0% of images have alt text</li></ul>
+            <h4>Missing Features</h4><ul><li>Contact form</li><li>Meta description</li><li>FAQ section</li><li>Clear call-to-action button</li></ul>
+            <h4>Recommendations</h4><ul class="recs"><li><span class='badge high'>HIGH</span> Add a contact/lead form with email + phone fields <em>— Forms convert visitors into leads better than a bare email link</em></li><li><span class='badge medium'>MEDIUM</span> Write a 150-160 character meta description summarizing services <em>— Improves click-through rate from search results</em></li><li><span class='badge high'>HIGH</span> Add a responsive viewport meta tag and test on mobile <em>— Most visa/immigration searches happen on mobile</em></li></ul>
+            <p class="overall-priority">Overall priority: <strong>HIGH</strong></p>
+          </div>
+        </section>
+        <section class="site-detail">
+          <h2>http://127.0.0.1:8003/</h2>
+          <div class="facts-block">
+            <h3>🔍 Automatically Detected Facts</h3>
+            <ul class="facts-grid">
+              <li>HTTP status: 200 | HTTPS: No | Load time: 14 ms</li>
+              <li>Pages crawled: 4 | Internal links: 3</li>
+              <li>Title: Northgate Migration Advisors</li>
+              <li>Meta description present: No</li>
+              <li>Contact form present: Yes</li>
+              <li>Phone visible: Yes | Email visible: Yes</li>
+              <li>CTA buttons (3): Book a consultation, Facebook, Get in touch</li>
+              <li>Social links: facebook</li>
+              <li>FAQ present: Yes</li>
+              <li>Alt text coverage: 50.0% (2/4 images)</li>
+              <li>Mobile viewport meta present: Yes</li>
+              <li>robots.txt status: allowed</li>
+            </ul>
+          </div>
+          <div class="judgment-block">
+            <h3>🤖 AI-Generated Judgment</h3>
+            <p class='mock-note'>⚠️ MOCK judgment — no LLM API key configured for this run.</p>
+            <p class="score-line">Score: <strong>45/100</strong> — MOCK JUDGMENT (no ANTHROPIC_API_KEY set) -- heuristic estimate only, not a real LLM opinion. (LLM call via gemini failed: ClientError: 404 NOT_FOUND. {&#x27;error&#x27;: {&#x27;code&#x27;: 404, &#x27;message&#x27;: &#x27;This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.&#x27;, &#x27;status&#x27;: &#x27;NOT_FOUND&#x27;}})</p>
+            <h4>Problems</h4><ul><li>Homepage has no meta description tag</li></ul>
+            <h4>Missing Features</h4><ul><li>Meta description</li></ul>
+            <h4>Recommendations</h4><ul class="recs"><li><span class='badge medium'>MEDIUM</span> Write a 150-160 character meta description summarizing services <em>— Improves click-through rate from search results</em></li></ul>
+            <p class="overall-priority">Overall priority: <strong>HIGH</strong></p>
+          </div>
+        </section>
+        <section class="site-detail">
+          <h2>http://127.0.0.1:8004/</h2>
+          <div class="facts-block">
+            <h3>🔍 Automatically Detected Facts</h3>
+            <ul class="facts-grid">
+              <li>HTTP status: 200 | HTTPS: No | Load time: 18 ms</li>
+              <li>Pages crawled: 1 | Internal links: 0</li>
+              <li>Title: VisaPro</li>
+              <li>Meta description present: Yes</li>
+              <li>Contact form present: No</li>
+              <li>Phone visible: No | Email visible: No</li>
+              <li>CTA buttons (0): none</li>
+              <li>Social links: none</li>
+              <li>FAQ present: No</li>
+              <li>Alt text coverage: 100.0% (1/1 images)</li>
+              <li>Mobile viewport meta present: No</li>
+              <li>robots.txt status: allowed</li>
+            </ul>
+          </div>
+          <div class="judgment-block">
+            <h3>🤖 AI-Generated Judgment</h3>
+            <p class='mock-note'>⚠️ MOCK judgment — no LLM API key configured for this run.</p>
+            <p class="score-line">Score: <strong>10/100</strong> — MOCK JUDGMENT (no ANTHROPIC_API_KEY set) -- heuristic estimate only, not a real LLM opinion. (LLM call via gemini failed: ClientError: 404 NOT_FOUND. {&#x27;error&#x27;: {&#x27;code&#x27;: 404, &#x27;message&#x27;: &#x27;This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.&#x27;, &#x27;status&#x27;: &#x27;NOT_FOUND&#x27;}})</p>
+            <h4>Problems</h4><ul><li>No contact form detected on crawled pages</li><li>No mobile viewport meta tag found</li></ul>
+            <h4>Missing Features</h4><ul><li>Contact form</li><li>FAQ section</li><li>Clear call-to-action button</li></ul>
+            <h4>Recommendations</h4><ul class="recs"><li><span class='badge high'>HIGH</span> Add a contact/lead form with email + phone fields <em>— Forms convert visitors into leads better than a bare email link</em></li><li><span class='badge high'>HIGH</span> Add a responsive viewport meta tag and test on mobile <em>— Most visa/immigration searches happen on mobile</em></li></ul>
+            <p class="overall-priority">Overall priority: <strong>HIGH</strong></p>
+          </div>
+        </section>
+        <section class="site-detail">
+          <h2>http://127.0.0.1:8005/</h2>
+          <div class="facts-block">
+            <h3>🔍 Automatically Detected Facts</h3>
+            <ul class="facts-grid">
+              <li>HTTP status: 200 | HTTPS: No | Load time: 4 ms</li>
+              <li>Pages crawled: 5 | Internal links: 4</li>
+              <li>Title: Meridian Immigration Law &amp; Consultancy | Licensed Advisers</li>
+              <li>Meta description present: Yes</li>
+              <li>Contact form present: Yes</li>
+              <li>Phone visible: Yes | Email visible: Yes</li>
+              <li>CTA buttons (5): Check Eligibility, Book a Free Consultation, Facebook, WhatsApp, Get started</li>
+              <li>Social links: facebook, linkedin, instagram, whatsapp</li>
+              <li>FAQ present: Yes</li>
+              <li>Alt text coverage: 100.0% (4/4 images)</li>
+              <li>Mobile viewport meta present: Yes</li>
+              <li>robots.txt status: allowed</li>
+            </ul>
+          </div>
+          <div class="judgment-block">
+            <h3>🤖 AI-Generated Judgment</h3>
+            <p class='mock-note'>⚠️ MOCK judgment — no LLM API key configured for this run.</p>
+            <p class="score-line">Score: <strong>50/100</strong> — MOCK JUDGMENT (no ANTHROPIC_API_KEY set) -- heuristic estimate only, not a real LLM opinion. (LLM call via gemini failed: ClientError: 404 NOT_FOUND. {&#x27;error&#x27;: {&#x27;code&#x27;: 404, &#x27;message&#x27;: &#x27;This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.&#x27;, &#x27;status&#x27;: &#x27;NOT_FOUND&#x27;}})</p>
+            <h4>Problems</h4><ul><li>None noted</li></ul>
+            <h4>Missing Features</h4><ul><li>None noted</li></ul>
+            <h4>Recommendations</h4><ul class="recs"><li>None</li></ul>
+            <p class="overall-priority">Overall priority: <strong>MEDIUM</strong></p>
+          </div>
+        </section>
+        <section class="site-detail">
+          <h2>http://127.0.0.1:8006/</h2>
+          <div class="facts-block">
+            <h3>🔍 Automatically Detected Facts</h3>
+            <ul class="facts-grid">
+              <li>HTTP status: 200 | HTTPS: No | Load time: 18 ms</li>
+              <li>Pages crawled: 3 | Internal links: 2</li>
+              <li>Title: Sahara Visa Consultants</li>
+              <li>Meta description present: No</li>
+              <li>Contact form present: No</li>
+              <li>Phone visible: Yes | Email visible: No</li>
+              <li>CTA buttons (1): WhatsApp</li>
+              <li>Social links: whatsapp</li>
+              <li>FAQ present: No</li>
+              <li>Alt text coverage: 0.0% (0/4 images)</li>
+              <li>Mobile viewport meta present: No</li>
+              <li>robots.txt status: allowed</li>
+            </ul>
+          </div>
+          <div class="judgment-block">
+            <h3>🤖 AI-Generated Judgment</h3>
+            <p class='mock-note'>⚠️ MOCK judgment — no LLM API key configured for this run.</p>
+            <p class="score-line">Score: <strong>10/100</strong> — MOCK JUDGMENT (no ANTHROPIC_API_KEY set) -- heuristic estimate only, not a real LLM opinion. (LLM call via gemini failed: ClientError: 404 NOT_FOUND. {&#x27;error&#x27;: {&#x27;code&#x27;: 404, &#x27;message&#x27;: &#x27;This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.&#x27;, &#x27;status&#x27;: &#x27;NOT_FOUND&#x27;}})</p>
+            <h4>Problems</h4><ul><li>No contact form detected on crawled pages</li><li>Homepage has no meta description tag</li><li>No mobile viewport meta tag found</li><li>Only 0.0% of images have alt text</li></ul>
+            <h4>Missing Features</h4><ul><li>Contact form</li><li>Meta description</li><li>FAQ section</li></ul>
+            <h4>Recommendations</h4><ul class="recs"><li><span class='badge high'>HIGH</span> Add a contact/lead form with email + phone fields <em>— Forms convert visitors into leads better than a bare email link</em></li><li><span class='badge medium'>MEDIUM</span> Write a 150-160 character meta description summarizing services <em>— Improves click-through rate from search results</em></li><li><span class='badge high'>HIGH</span> Add a responsive viewport meta tag and test on mobile <em>— Most visa/immigration searches happen on mobile</em></li></ul>
+            <p class="overall-priority">Overall priority: <strong>HIGH</strong></p>
+          </div>
+        </section>
+            <section class="site-detail unreachable">
+              <h2>http://127.0.0.1:9999/</h2>
+              <p><strong>Could not be audited.</strong> Error: <code>connection_error</code></p>
+            </section>
+</body>
+</html>

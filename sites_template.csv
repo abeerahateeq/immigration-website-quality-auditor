@@ -1,0 +1,4 @@
+url,authorized,notes
+https://your-own-test-site.example.com,yes,replace with a site you own or have written permission to audit
+https://another-authorized-site.example.com,yes,replace with a site you own or have written permission to audit
+https://third-site.example.com,no,example of a row that will be skipped because authorized != yes

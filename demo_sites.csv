@@ -1,0 +1,9 @@
+url,authorized,notes
+http://127.0.0.1:8001/,yes,own test fixture - good quality consultancy site
+http://127.0.0.1:8002/,yes,own test fixture - deliberately poor site
+http://127.0.0.1:8003/,yes,own test fixture - mid quality site
+http://127.0.0.1:8004/,yes,own test fixture - thin single-page site
+http://127.0.0.1:8005/,yes,own test fixture - premium quality site
+http://127.0.0.1:8006/,yes,own test fixture - regional site
+http://127.0.0.1:9999/,yes,dead port - tests graceful failure handling
+http://127.0.0.1:8001/private-blocked-demo/,no,row skipped because authorized != yes
